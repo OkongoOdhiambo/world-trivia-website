@@ -43,7 +43,7 @@ Brief: A single-page, accessible, mobile-first trivia site skeleton. Semantic HT
 
 ## License
 
-MIT — see LICENSE file for details.
+ GNU General Public License (GPL).
 
 ## Contact
 

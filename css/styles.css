@@ -1,0 +1,21 @@
+/* Navigation Menu Styles */
+#navigation-menu {
+    padding: 0; /* Remove padding */
+}
+
+#navigation-menu ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Arrange items in a row */
+    flex-direction: row; /* Flex items in horizontally */
+    justify-content: space-around; /
+    margin: 10px; /* Add margin around items */
+}
+
+#navigation-menu ul li a {
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline */
+}
+
+#navigation-menu ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
