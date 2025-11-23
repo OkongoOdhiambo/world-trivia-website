@@ -8,6 +8,26 @@ body {
     padding: 0; /* Remove default padding */
 }
 
+.list-items ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Arrange items in a row */
+    flex-direction: row; /* Flex items in horizontally */
+    justify-content: space-around; /* Space items evenly */
+}
+
+.list-items ul li {
+    margin: 10px; /* Add margin around items */
+}
+
+.list-items ul li a {
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+}
+
+.list-items ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
 /* Header Styles */
 header {
     background-color: #333; /* Dark background for header */
@@ -19,25 +39,16 @@ header {
     padding: 0; /* Remove padding */
 }
 
-#navigation-menu ul {
-    list-style: none; /* Remove bullet points */
-    display: flex; /* Arrange items in a row */
-    flex-direction: row; /* Flex items in horizontally */
-    justify-content: space-around; /* Space items evenly */
-}
-
-#navigation-menu ul li {
-    margin: 10px; /* Add margin around items */
-}
-
-#navigation-menu ul li a {
-    text-decoration: none; /* Remove underline */
+/* Header Styles */
+#header ul li a {
     color: white; /* White text color */
 }
 
-#navigation-menu ul li a:hover {
-    text-decoration: underline; /* Underline links on hover */
+/* Categories Section Styles */
+#categories ul li a {
+    color: #0654b3;  /* Set category link color to a specific blue */
 }
+
 
 /* Home Section Styles */
 main {
