@@ -55,3 +55,16 @@ p {
 h1, h2 {
     color: #0654b3; /* Set heading color to a specific blue */
 }
+
+.trivia-item {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin: 20px 0;
+}
+
+.trivia-item img {
+    width: 150px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add space to the right of images */
+    border-radius: 5px; /* Add rounder corners to images */
+}
