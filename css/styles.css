@@ -79,3 +79,37 @@ h1, h2 {
     margin-right: 20px; /* Add space to the right of images */
     border-radius: 5px; /* Add rounder corners to images */
 }
+
+table {
+    width: 100%; /* Full width table */
+    border-collapse: separate; /* Separate borders for rounded corners */
+    border-radius: 10px; /* Rounded corners */
+    border-spacing: 0; /* Remove spacing between cells */
+    margin-top: 20px; /* Add top margin */
+    overflow: hidden; /* Ensure rounded corners are applied */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light grey border between cells */
+    padding: 8px; /* Add padding to table cells */
+    text-align: left; /* Left align text */
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fdfdfd; /* Zebra striping for better readability */
+}
+
+tfoot tr {
+    font-weight: bold; /* Bold text for footer row */
+    background-color: #fdfdfd; /* Light background for footer row */
+}
+tfoot tr td {
+    border-top: 2px solid #333; /* Thicker top border for footer row */
+    text-align: center; /* Center align footer text */
+}
