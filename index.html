@@ -149,7 +149,10 @@
                 <!-- Spacer for button alignment -->
                  <div class="button-spacer"></div> 
 
-                <button type="submit" class="contact-button">Submit</button>
+                <button type="submit" class="contact-button" aria-labelledby="contact-form">
+                    <span class="screen-reader-text" id="contact-form">Submit Contact Form</span>
+                    Submit
+                </button>
             </form>
             <div class="contact-info">
                 <p><img src="images/email.svg" alt="Email Icon">info@worldtrivia.com</p>
@@ -161,7 +164,9 @@
         <section id="subscribe">
             <h2>Subscribe to the Puzzle of the Day</h2>
             <p>Join our community and get your daily dose of trivia right in your inbox</p>
-            <button type="submit" class="subscribe-button" aria-label="Subscribe to Puzzle of the day">Subscribe Now</button>
+            <button type="submit" class="subscribe-button" aria-label="Subscribe to Puzzle of the day">
+                Subscribe Now
+            </button>
         </section>
     </main>
     <footer>

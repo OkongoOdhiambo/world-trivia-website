@@ -216,3 +216,12 @@ footer {
         transform: scale(1); /* Back to initial scale */
     }    
 }
+
+.screen-reader-text {
+    position: absolute; /* Position it out of the flow of the document */
+    width: 1px; height: 1px; /* Make it very small */
+    margin: -1px; /* Place it out of the viewport */
+    padding: 0; border: 0px; /* Remove padding and border */
+    clip: rect(0, 0, 0, 0); /* Clip it to hide it */
+    overflow: hidden; /* Hide any content that overflows its box */
+}
